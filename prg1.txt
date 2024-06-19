@@ -1,0 +1,29 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+\pagestyle{fancy}
+\title{Simple Document}
+\author{\textbf{soumya} \\ 4th Sem, Department of Information Science \& Engineering\\ HKBK College of Engineering, Nagawara, Bengaluru - 560045}
+\fancyhead{}
+\fancyhead[RO,RE]{\textbf{Simple Document}}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+\fancyfoot[LO,LE]{HKBK College of Engineering}
+\maketitle
+\section{What is GNU?}
+	GNU is an operating system that is free software-that is ,it respects users'freedom. 
+\section{More about GNU}
+	GNU is a Unix-like operating system. That means it is a collection of many programs: applications, libraries, developer tools,even games. \\
+\section{What is the Free Software Movement?}
+	The free software movement campaigns to win for the users of computing the freedom that comes from free software. \\
+\section{What is Free Software?}
+\textbf{Free software means the users have the freedom to run, copy, distribute, study, change and improve the software.}
+	Free software is a matter of liberty, not price. To understand the concept, you should think of "free" as in "free speech," not as in "free beer". 
+\begin{itemize}
+\item The freedom to run the program as you wish, for any purpose (freedom 0).
+\item The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+\item The freedom to redistribute copies so you can help others (freedom 2).
+\item The freedom to distribute copies of your modified versions to others (freedom 3). 
+\end{itemize}
+\end{document}

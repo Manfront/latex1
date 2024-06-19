@@ -1,0 +1,74 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,nccmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+
+\title{Mathematical Equations in LaTeX}
+\author{Chandana L\\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+\fancyfoot[C]{\thepage}
+\maketitle
+\section{Insertion of Mathematics Equation}
+
+\subsection{Display math mode}
+The mass-energy equivalence is described by the famous equation
+
+\[E=mc^2\]
+
+discovered in 1905 by Albert Einstein. In natural units ($c$= 1), the formula expresses the identity
+
+\begin{equation}
+E=m
+\end{equation}
+
+This is a simple math expression \(\sqrt{x^2+1}\) inside text. 
+And this is also the same: 
+\begin{math}
+\sqrt{x^2+1}
+\end{math}
+but by using another command.
+
+This is a simple math expression without numbering
+\begin{equation}
+\sqrt{x^2+1} 
+\end{equation}
+
+separated from text.
+
+This is also the same:
+\begin{displaymath}
+\sqrt{x^2+1}
+\end{displaymath}
+
+\ldots and this:
+\begin{equation}
+\sqrt{x^2+1}
+\end{equation}
+
+\section{Insertion of Equation}
+\subsection{Equation 1}
+\begin{fleqn}
+\[x = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}\]
+\[= \frac{-2 \pm \sqrt{2^{2}-4*(1)*(-8)}}{2*1}\]
+\[= \frac{-2 \pm \sqrt{4+32}}{2}\]
+\end{fleqn}
+
+\subsection{Equation 2}
+\begin{fleqn}
+\[\varphi^{\lambda}{\sigma}A{t} = \sum_{\pi \in C_{t}} sgn(\pi)\varphi^{\lambda}{\sigma}\varphi^{\lambda}{\pi}\]
+\[= \sum_{\tau \in C_{\sigma t}} sgn(\sigma^{-1}\tau\sigma)\varphi^{\lambda}{\sigma}\varphi^{\lambda}{\sigma^{-1}\tau\sigma}\]
+\[= A_{\sigma t} \varphi^{\lambda}_{\sigma}\]
+
+\end{fleqn}
+\subsection{Equation 3}
+\begin{fleqn}
+\[
+(a + b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k
+\]
+
+where $\binom{n}{k}$ is the binomial coefficient, defined as $\binom{n}{k} = \frac{n!}{k!(n-k)!}$.
+\end{fleqn}
+\end{document}

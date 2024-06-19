@@ -1,0 +1,88 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{wrapfig}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+
+
+\listoffigures
+\vspace{5pt}
+\newpage
+
+\title{Graphics/Pictures/Figures in a Document}
+\author{Dr.V.Balaji Vijayan \\ Professor\\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+\fancyfoot[C]{\thepage}
+\maketitle
+
+
+\section{Insertion Graphics/Pictures/Figures in a Document} 
+
+\subsection{Inserting the Graphics/Pictures/Figures side-by-side}
+\begin{figure}[h]
+        \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{C:/Users/deeks/OneDrive/Desktop/LATEX/figure.png.jpeg} 
+         \caption{Image}
+              \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{C:/Users/deeks/OneDrive/Desktop/LATEX/figure.png.jpeg}
+         \caption{Figure}
+              \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.3\textwidth}
+        
+         \includegraphics[width=\textwidth]{C:/Users/deeks/OneDrive/Desktop/LATEX/figure.png.jpeg}
+         \caption{Graph}
+              \end{subfigure}
+        \caption{Three simple Graphics/Pictures/Figures in a Document arranged side-by-side}
+       
+\subsection{Wrapping text around figures}
+\begin{wrapfigure}{r}{0.25\textwidth} %this figure will be at the right
+ 
+    \includegraphics[width=0.25\textwidth]{C:/Users/deeks/OneDrive/Desktop/LATEX/figure.png.jpeg}
+	\caption{Wrapped Figure}
+\end{wrapfigure}
+
+There are several ways to plot a function of two variables, 
+depending on the information you are interested in. For 
+instance, if you want to see the mesh of a function so it 
+easier to see the derivative you can use a plot like the 
+one on the left.
+
+\begin{wrapfigure}{l}{0.25\textwidth} %this figure will be at the right
+ 
+    \includegraphics[width=0.25\textwidth]{C:/Users/deeks/OneDrive/Desktop/LATEX/figure.png.jpeg}
+	\caption{Wrapped Figure}
+\end{wrapfigure}
+
+On the other side, if you are only interested on
+certain values you can use the contour plot, you 
+can use the contour plot, you can use the contour 
+plot, you can use the contour plot, you can use 
+the contour plot, you can use the contour plot, 
+you can use the contour plot, like the one on the left.
+
+On the other side, if you are only interested on 
+certain values you can use the contour plot, you 
+can use the contour plot, you can use the contour 
+plot, you can use the contour plot, you can use the 
+contour plot, you can use the contour plot, 
+you can use the contour plot, 
+like the one on the left.
+
+On the other side, if you are only interested on 
+certain values you can use the contour plot, you 
+can use the contour plot, you can use the contour 
+plot, you can use the contour plot, you can use the 
+contour plot, you can use the contour plot, 
+you can use the contour plot, 
+like the one on the left.
+ \end{figure}
+\end{document}
